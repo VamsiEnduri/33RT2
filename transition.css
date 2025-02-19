@@ -1,0 +1,126 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: lightblue;
+}
+button{
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    transition-property: background-color, padding, border-radius;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+    
+}
+button:hover{
+    padding: 15px 35px;
+    border-radius: 20px;
+    background-color: purple;
+} */
+
+
+
+
+
+
+
+
+/* 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: lightblue;
+}
+button{
+    font-size: 20px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: none;
+    outline: none;
+    transition-property: background-color, padding, border-radius,width,height,font-size,color,font-weight;
+    transition-duration:5s;
+    transition-delay: 2s;
+    transition-timing-function: ease-in-out;
+}
+button:hover{
+    color: yellow;
+    font-weight: 900;
+    font-size: 50px;
+    width: 150px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: purple;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shorthand property */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: lightblue;
+}
+h1{
+    font-size: 20px;
+    color: yellow;
+    background-color: purple;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 30px;
+    transition: font-size 4s linear 0.3s, color 3s  5s,background-color 3s  10s, font-weight 5s ease 0.3s , font-family 2s ease-out 2s,padding 3s linear 2s;
+}
+
+h1:hover{
+    font-size: 40px;
+    color: white;
+    background-color: coral;
+    font-weight: 900;
+    font-family: cursive;
+    padding: 50px;
+}
+img{
+   /* width: 80px;
+   height: 50px;
+   transition: width 4s ease-in 0.3s, height 6s ease-in-out 1s; */
+   /* transition-property  t-duration t-timing-function t-delay */
+}
+img:hover{
+   /* width: 150px;
+   height: 150px; */
+}
